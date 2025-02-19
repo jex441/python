@@ -22,10 +22,15 @@
 # else:
 #     print("It's not a hot day")
 
-weight = float(input("Enter your weight: "))
-unit = input("(L)bs or (K)g: ")
+# weight = float(input("Enter your weight: "))
+# unit = input("(L)bs or (K)g: ")
 
-if unit.upper() == "L":
-    print(f"You are {weight * 0.45} kilos")
-if unit.upper() == "K":
-    print(f"You are {weight / 0.45} pounds")
+# if unit.upper() == "L":
+#     print(f"You are {weight * 0.45} kilos")
+# if unit.upper() == "K":
+#     print(f"You are {weight / 0.45} pounds")
+
+i = 1
+while i <= 10:
+    print(i * '*')
+    i = i + 1
