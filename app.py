@@ -30,7 +30,26 @@
 # if unit.upper() == "K":
 #     print(f"You are {weight / 0.45} pounds")
 
-i = 1
-while i <= 10:
-    print(i * '*')
+# i = 1
+# while i <= 10:
+#     print(i * '*')
+#     i = i + 1
+
+names = ['John', 'Bob', 'Mosh', 'Sarah', 'Mary']
+names[0] = 'Jon'    # Change the first element
+print(names)
+
+names.insert(1, 'Joy')  # Insert at index 1 
+names.remove('Mosh')    # Remove 'Mosh'
+print(len(names))
+
+for item in names:
+    print(item + 'is online')
+i = 0
+while i < len(names):
+    print(names[i])
     i = i + 1
+
+numbers = (1,2,3)
+print(numbers[0])
+# numbers[0] = 10
