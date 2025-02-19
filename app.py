@@ -9,3 +9,6 @@ course = "Python for beginners"
 print(course.upper())
 print(course.lower())
 print(course.replace("r", "R"))
+print('Pytho' in course)
+print('Pytho' in course and "beginners" in course)
+print(not 'Python' in course)
